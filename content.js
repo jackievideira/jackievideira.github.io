@@ -91,45 +91,10 @@ window.portfolioContent = {
   ],
   projects: [
     {
-      title: "Project Spotlight",
-      type: "Featured Work",
+      title: "J Videira Paving",
+      type: "Business Website",
       description:
-        "Use this space to highlight a robotics system, software product, research platform, or website you built. The layout is already designed to support project summaries with external links.",
-      stack: ["C++", "Python", "React"],
-      impact: "A flexible project slot for work you want to explain in more depth.",
+        "Website for a local paving and masonry contractor. Designed and built to help the business establish an online presence, showcase services, and make it easy for customers to get in touch.",
+      stack: ["HTML/CSS", "JavaScript"],
+      impact: "Live customer-facing site supporting a small business.",
       links: [
-        { label: "Project Link", url: "https://example.com" },
-        { label: "Case Study", url: "https://example.com" }
-      ]
-    },
-    {
-      title: "Website or Product Build",
-      type: "External Site",
-      description:
-        "This card is ready for websites or customer-facing tools you have created, including portfolios, product pages, dashboards, or interactive applications.",
-      stack: ["TypeScript", "React", "HTML/CSS"],
-      impact: "A clean space for linking directly to public work.",
-      links: [
-        { label: "Live Site", url: "https://example.com" }
-      ]
-    },
-    {
-      title: "Collaboration or Research Build",
-      type: "Case Study",
-      description:
-        "Use this section for collaborative work where your contribution was systems design, robotics infrastructure, UI, or core engineering support.",
-      stack: ["Robotics", "Middleware", "Systems"],
-      impact: "A good place to describe your role, technical ownership, and outcome.",
-      links: [
-        { label: "Project Link", url: "https://example.com" }
-      ]
-    }
-  ],
-  contactBlurb:
-    "I enjoy work that blends strong engineering fundamentals with practical collaboration across research, robotics, and product teams. Reach out through any of the links here.",
-  contactLinks: [
-    { label: "Email", value: "jackie.videira@gmail.com", href: "mailto:jackie.videira@gmail.com" },
-    { label: "LinkedIn", value: "linkedin.com/in/jackie-videira", href: "https://www.linkedin.com/in/jackie-videira/" },
-    { label: "GitHub", value: "https://github.com/jackievideira", href: "https://github.com/jackievideira" }
-  ]
-};
