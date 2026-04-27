@@ -1,19 +1,122 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Bootstrap Example</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <meta
+    name="description"
+    content="Interactive resume and portfolio website with experience, technical skills, and projects."
+  >
+  <link rel="stylesheet" href="./styles.css">
 </head>
 <body>
+  <div class="page-shell">
+    <header class="topbar">
+      <a class="brand" href="#home">
+        <span class="brand-mark"></span>
+        <span id="brandName">Your Name</span>
+      </a>
+      <nav class="nav">
+        <a href="#experience">Experience</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <a class="button button-quiet" id="resumeLink" href="#" target="_blank" rel="noreferrer">Resume</a>
+    </header>
 
-<div class="container-fluid">
-  <h1>Header</h1>
-  <p>Hello World!</p> 
-</div>
+    <main>
+      <section class="hero section" id="home">
+        <div class="hero-copy reveal">
+          <p class="eyebrow" id="heroEyebrow">Software Engineer</p>
+          <h1 id="heroTitle">Building thoughtful digital experiences with clean code and sharp UX instincts.</h1>
+          <p class="hero-summary" id="heroSummary"></p>
+          <div class="hero-actions">
+            <a class="button" id="primaryCta" href="#projects">View Projects</a>
+            <a class="button button-quiet" id="secondaryCta" href="#contact">Let's Connect</a>
+          </div>
+          <div class="hero-meta">
+            <div>
+              <span class="meta-label">Location</span>
+              <strong id="locationText">United States</strong>
+            </div>
+            <div>
+              <span class="meta-label">Focus</span>
+              <strong id="focusText">Frontend, product thinking, and collaboration</strong>
+            </div>
+          </div>
+        </div>
 
+        <div class="hero-visual reveal">
+          <div class="portrait-frame">
+            <img src="./assets/hero-visual.png" alt="Abstract editorial portrait collage" class="portrait-image">
+            <div class="floating-card floating-card-top">
+              <span class="card-kicker">Currently</span>
+              <strong id="currentRole">Open to impactful product and software roles</strong>
+            </div>
+            <div class="floating-card floating-card-bottom">
+              <span class="card-kicker">Highlights</span>
+              <div class="stats" id="statsGrid"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section intro-band reveal">
+        <div>
+          <p class="section-label">About</p>
+          <h2>A portfolio that reads like a person, not a keyword dump.</h2>
+        </div>
+        <p class="intro-text" id="aboutText"></p>
+      </section>
+
+      <section class="section" id="experience">
+        <div class="section-heading reveal">
+          <div>
+            <p class="section-label">Experience</p>
+            <h2>Work that shaped how I build.</h2>
+          </div>
+          <p class="section-copy">A focused timeline of roles, ownership areas, and the kind of outcomes I care about.</p>
+        </div>
+        <div class="timeline" id="experienceList"></div>
+      </section>
+
+      <section class="section" id="skills">
+        <div class="section-heading reveal">
+          <div>
+            <p class="section-label">Technical Skills</p>
+            <h2>Tools, languages, and strengths.</h2>
+          </div>
+          <p class="section-copy">Use the filters to scan by the kind of work you need me to do.</p>
+        </div>
+        <div class="skill-controls reveal" id="skillFilters"></div>
+        <div class="skill-grid" id="skillGrid"></div>
+      </section>
+
+      <section class="section" id="projects">
+        <div class="section-heading reveal">
+          <div>
+            <p class="section-label">Projects</p>
+            <h2>Selected builds and collaborations.</h2>
+          </div>
+          <p class="section-copy">A mix of shipped work, contributions, and case-study style highlights with direct links out.</p>
+        </div>
+        <div class="project-grid" id="projectGrid"></div>
+      </section>
+
+      <section class="section contact-band reveal" id="contact">
+        <div>
+          <p class="section-label">Contact</p>
+          <h2>Let’s build something smart and human.</h2>
+          <p id="contactBlurb"></p>
+        </div>
+        <div class="contact-links" id="contactLinks"></div>
+      </section>
+    </main>
+  </div>
+
+  <script src="./content.js"></script>
+  <script src="./script.js"></script>
 </body>
 </html>

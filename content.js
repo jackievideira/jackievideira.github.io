@@ -1,0 +1,135 @@
+window.portfolioContent = {
+  name: "Jackie Videira",
+  title: "Engineer II",
+  headline: "Systems engineer building reliable software for real-world deployment.",
+  summary:
+    "I am a robotics and software engineer with experience spanning task planning, motion coordination, hardware integration, middleware, and user-facing tools. My work has focused on building dependable systems that connect research goals, real-world hardware, and practical software delivery.",
+  about:
+    "My background blends robotics infrastructure, low-level systems work, and product-minded software engineering. I enjoy building the pieces that make complex systems actually work together, from motion coordination and hardware drivers to testing, deployment, and interfaces that help people use those systems with confidence.",
+  location: "Boston, MA",
+  focus: "Robotics software, task planning, hardware integration, and full-stack engineering",
+  currentRole: "Engineer II at Sony AI, supporting fine-manipulation research infrastructure",
+  resumeUrl: "",
+  primaryCta: {
+    label: "View Projects",
+    href: "#projects"
+  },
+  secondaryCta: {
+    label: "Contact Me",
+    href: "#contact"
+  },
+  stats: [
+    { value: "5+", label: "Years in industry" },
+    { value: "3", label: "Engineering roles" },
+    { value: "2", label: "Robotics teams" }
+  ],
+  experience: [
+    {
+      period: "March 2024 - Present",
+      role: "Engineer II",
+      company: "Sony AI",
+      location: "Boston, MA",
+      summary:
+        "Building core robotics infrastructure to support fine-manipulation research, with a focus on task planning, motion coordination, hardware integration, deployment, and system reliability.",
+      highlights: [
+        "Architected a task management system in C++ and Python to manage discrete system states and arbitrate between multiple task planners for complex manipulation sequences.",
+        "Developed a motion coordination engine to synchronize asynchronous, collision-free trajectories for a dual-arm robotic system, interfacing with external motion planners over gRPC.",
+        "Engineered and supported low-level drivers for a multi-sensor suite, including four high-resolution cameras and trajectory-controlled grippers, enabling reliable hardware-software integration.",
+        "Standardized system deployment by containerizing core research components with Docker and Docker Compose, reducing setup time and improving consistency across global research teams.",
+        "Implemented unit and integration testing frameworks for middleware components to support higher-confidence research and fine-manipulation development.",
+        "Facilitated cross-functional collaboration across multiple time zones by providing system support and infrastructure critical to research progress."
+      ]
+    },
+    {
+      period: "August 2020 - March 2024",
+      role: "Software Engineer II",
+      company: "Dexai Robotics",
+      location: "Boston, MA",
+      summary:
+        "Worked across robotics software, hardware integration, cloud-connected systems, and customer-facing tooling in a production robotics environment.",
+      highlights: [
+        "Developed, prototyped, and maintained a robot task planner in C++ based on discrete system states.",
+        "Designed and maintained low-level hardware drivers using manufacturer APIs and real-time processing constraints.",
+        "Designed and developed communications APIs connecting hardware components, customer UI, and cloud services.",
+        "Developed and maintained customer-facing UI using TypeScript and React."
+      ]
+    },
+    {
+      period: "June 2019 - August 2020",
+      role: "Software Engineer Asc",
+      company: "Lockheed Martin",
+      location: "Burlington, MA",
+      summary:
+        "Contributed software tools and simulation-related development with a focus on interpretable feedback and VR-based interaction.",
+      highlights: [
+        "Developed tools for training software that provided interpretable, machine-learning-generated feedback to users after task completion.",
+        "Built a Prepar3D VR flight simulator add-on that tracked eye movement to identify which object a user was looking at."
+      ]
+    }
+  ],
+  skillGroups: [
+    {
+      id: "languages",
+      label: "Languages & Frameworks",
+      skills: ["C++", "Python", "JavaScript", "TypeScript", "React", "SQL", "HTML5", "CSS"]
+    },
+    {
+      id: "robotics",
+      label: "Robotics & Systems",
+      skills: ["Task Planning", "Discrete System States", "Motion Coordination", "gRPC", "Hardware Drivers", "Middleware", "Integration Testing", "Sensor Integration"]
+    },
+    {
+      id: "tools",
+      label: "Tools",
+      skills: ["Git", "AWS", "Docker", "Docker Compose", "MySQL", "PostgreSQL", "Testing", "Debugging"]
+    },
+    {
+      id: "education",
+      label: "Education",
+      skills: ["B.S. Computer Science and Engineering", "Mathematics Minor", "University of Connecticut"]
+    }
+  ],
+  projects: [
+    {
+      title: "Project Spotlight",
+      type: "Featured Work",
+      description:
+        "Use this space to highlight a robotics system, software product, research platform, or website you built. The layout is already designed to support project summaries with external links.",
+      stack: ["C++", "Python", "React"],
+      impact: "A flexible project slot for work you want to explain in more depth.",
+      links: [
+        { label: "Project Link", url: "https://example.com" },
+        { label: "Case Study", url: "https://example.com" }
+      ]
+    },
+    {
+      title: "Website or Product Build",
+      type: "External Site",
+      description:
+        "This card is ready for websites or customer-facing tools you have created, including portfolios, product pages, dashboards, or interactive applications.",
+      stack: ["TypeScript", "React", "HTML/CSS"],
+      impact: "A clean space for linking directly to public work.",
+      links: [
+        { label: "Live Site", url: "https://example.com" }
+      ]
+    },
+    {
+      title: "Collaboration or Research Build",
+      type: "Case Study",
+      description:
+        "Use this section for collaborative work where your contribution was systems design, robotics infrastructure, UI, or core engineering support.",
+      stack: ["Robotics", "Middleware", "Systems"],
+      impact: "A good place to describe your role, technical ownership, and outcome.",
+      links: [
+        { label: "Project Link", url: "https://example.com" }
+      ]
+    }
+  ],
+  contactBlurb:
+    "I enjoy work that blends strong engineering fundamentals with practical collaboration across research, robotics, and product teams. Reach out through any of the links here.",
+  contactLinks: [
+    { label: "Email", value: "jackie.videira@gmail.com", href: "mailto:jackie.videira@gmail.com" },
+    { label: "LinkedIn", value: "linkedin.com/in/jackie-videira", href: "https://www.linkedin.com/in/jackie-videira/" },
+    { label: "GitHub", value: "https://github.com/jackievideira", href: "https://github.com/jackievideira" }
+  ]
+};
