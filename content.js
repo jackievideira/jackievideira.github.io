@@ -98,3 +98,24 @@ window.portfolioContent = {
       stack: ["HTML/CSS", "JavaScript"],
       impact: "Live customer-facing site supporting a small business.",
       links: [
+        { label: "Live Site", url: "http://jvideiraspaving.com" }
+      ]
+    },
+    {
+      title: "Maria VS",
+      type: "Business Website",
+      stack: ["HTML/CSS", "JavaScript"],
+      impact: "Live site actively maintained.",
+      links: [
+        { label: "Live Site", url: "http://mariavs.com" }
+      ]
+    }
+  ],
+  contactBlurb:
+    "I enjoy work that blends strong engineering fundamentals with practical collaboration across research, robotics, and product teams. Reach out through any of the links here.",
+  contactLinks: [
+    { label: "Email", value: "jackie.videira@gmail.com", href: "mailto:jackie.videira@gmail.com" },
+    { label: "LinkedIn", value: "linkedin.com/in/jackie-videira", href: "https://www.linkedin.com/in/jackie-videira/" },
+    { label: "GitHub", value: "https://github.com/jackievideira", href: "https://github.com/jackievideira" }
+  ]
+};
