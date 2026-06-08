@@ -1,7 +1,7 @@
 window.portfolioContent = {
   name: "Jackie Videira",
-  title: "Engineer II",
-  headline: "Systems engineer building reliable software for real-world deployment.",
+  title: "Systems Engineer",
+  headline: "Software and robotics engineer with a focus on systems that work in the real world.",
   summary:
     "I am a robotics and software engineer with experience spanning task planning, motion coordination, hardware integration, middleware, and user-facing tools. My work has focused on building dependable systems that connect research goals, real-world hardware, and practical software delivery.",
   about:
