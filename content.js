@@ -1,32 +1,21 @@
 window.portfolioContent = {
   name: "Jackie Videira",
-  title: "Systems Engineer",
-  headline: "Software and robotics engineer with a focus on systems that work in the real world.",
-  summary:
-    "I am a robotics and software engineer with experience spanning task planning, motion coordination, hardware integration, middleware, and user-facing tools. My work has focused on building dependable systems that connect research goals, real-world hardware, and practical software delivery.",
+  title: "Software Systems Engineer",
+  headline: "Software and robotics engineer with a focus on building systems that work in the real world.",
   about:
-    "My background blends robotics infrastructure, low-level systems work, and product-minded software engineering. I enjoy building the pieces that make complex systems actually work together, from motion coordination and hardware drivers to testing, deployment, and interfaces that help people use those systems with confidence.",
-  location: "Boston, MA",
+    "My background blends robotics infrastructure, low-level systems work, and product-minded software engineering. I enjoy building the pieces that make complex systems actually work together — from motion coordination and hardware drivers to testing, deployment, and interfaces that help people use those systems with confidence.",
+  location: "Hartford, CT — open to relocating to Boston, MA",
   focus: "Robotics software, task planning, hardware integration, and full-stack engineering",
   currentRole: "Engineer II at Sony AI, supporting fine-manipulation research infrastructure",
   resumeUrl: "",
-  primaryCta: {
-    label: "View Projects",
-    href: "#projects"
-  },
   secondaryCta: {
     label: "Contact Me",
     href: "#contact"
   },
-  stats: [
-    { value: "5+", label: "Years in industry" },
-    { value: "3", label: "Engineering roles" },
-    { value: "2", label: "Robotics teams" }
-  ],
   experience: [
     {
       period: "March 2024 - Present",
-      role: "Engineer II",
+      role: "Systems Engineer II",
       company: "Sony AI",
       location: "Boston, MA",
       summary:
@@ -112,7 +101,7 @@ window.portfolioContent = {
     }
   ],
   contactBlurb:
-    "I enjoy work that blends strong engineering fundamentals with practical collaboration across research, robotics, and product teams. Reach out through any of the links here.",
+    "Actively seeking work that blends strong engineering fundamentals with practical collaboration across research, robotics, and product teams. Reach out through any of the links here.",
   contactLinks: [
     { label: "Email", value: "jackie.videira@gmail.com", href: "mailto:jackie.videira@gmail.com" },
     { label: "LinkedIn", value: "linkedin.com/in/jackie-videira", href: "https://www.linkedin.com/in/jackie-videira/" },
