@@ -19,7 +19,6 @@ const hydrateHero = () => {
   setText("brandName", content.name);
   setText("heroEyebrow", content.title);
   setText("heroTitle", content.headline);
-  setText("heroSummary", content.summary);
   setText("aboutText", content.about);
   setText("locationText", content.location);
   setText("focusText", content.focus);
@@ -34,21 +33,9 @@ const hydrateHero = () => {
     resumeLink.setAttribute("aria-disabled", "true");
     resumeLink.classList.add("is-disabled");
   }
-  setLink("primaryCta", content.primaryCta);
   setLink("secondaryCta", content.secondaryCta);
 };
 
-const renderStats = () => {
-  const statsGrid = document.getElementById("statsGrid");
-  statsGrid.innerHTML = "";
-
-  content.stats.forEach((stat) => {
-    const card = document.createElement("div");
-    card.className = "stat";
-    card.innerHTML = `<strong>${stat.value}</strong><span>${stat.label}</span>`;
-    statsGrid.appendChild(card);
-  });
-};
 
 const renderExperience = () => {
   const experienceList = document.getElementById("experienceList");
@@ -191,7 +178,6 @@ const observeNav = () => {
 };
 
 hydrateHero();
-renderStats();
 renderExperience();
 renderSkillFilters();
 renderSkills();
