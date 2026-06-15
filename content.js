@@ -5,7 +5,7 @@ window.portfolioContent = {
   about:
     "My background blends robotics infrastructure, low-level systems work, and product-minded software engineering. I enjoy building the pieces that make complex systems actually work together — from hardware drivers to testing, deployment, and building the interfaces that help people use those systems with confidence.",
   location: "Hartford, CT - open to relocating",
-  focus: "Robotics software, task planning, hardware integration, and full-stack engineering",
+  focus: "Robotics software, real-time systems, hardware integration, and full-stack product work",
   currentRole: "Systems Engineer at Sony AI, support robotics research infrastructure",
   portraitSrc: "", // path to your photo, e.g. "assets/photo.jpg"
   resumeUrl: "",
