@@ -81,6 +81,18 @@ window.portfolioContent = {
   ],
   projects: [
     {
+      title: "FSM Visualizer",
+      type: "Interactive Tool",
+      description:
+        "Browser-based Deterministic Finite Automaton simulator with real-time graph visualization. Define states and transitions, then step through an input string and watch the active state animate through the graph. Includes robotics-themed examples — pick-and-place arm task planning, obstacle avoidance, and block sorting.",
+      stack: ["React", "TypeScript", "SVG"],
+      impact: "Demonstrates task-planning and state-machine concepts in a shareable, visual form.",
+      links: [
+        { label: "Live Demo", url: "/fsm/" },
+        { label: "Source", url: "https://github.com/jackievideira/jackievideira.github.io/blob/master/fsm/index.html" }
+      ]
+    },
+    {
       title: "J Videira Paving",
       type: "Business Website",
       description:
