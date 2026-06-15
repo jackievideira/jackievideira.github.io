@@ -169,6 +169,34 @@ const observeReveals = () => {
   document.querySelectorAll(".reveal").forEach((node) => revealObserver.observe(node));
 };
 
+const setupThemeToggle = () => {
+  const toggle = document.getElementById("themeToggle");
+  if (!toggle) return;
+
+  const applyTheme = (theme) => {
+    const isLight = theme === "light";
+    document.documentElement.setAttribute("data-theme", isLight ? "light" : "dark");
+    toggle.setAttribute("aria-pressed", String(isLight));
+    toggle.setAttribute("aria-label", isLight ? "Switch to dark mode" : "Switch to light mode");
+  };
+
+  let stored = null;
+  try {
+    stored = localStorage.getItem("theme");
+  } catch (e) {}
+
+  // Default to dark mode when no preference is stored.
+  applyTheme(stored === "light" ? "light" : "dark");
+
+  toggle.addEventListener("click", () => {
+    const next = document.documentElement.getAttribute("data-theme") === "light" ? "dark" : "light";
+    applyTheme(next);
+    try {
+      localStorage.setItem("theme", next);
+    } catch (e) {}
+  });
+};
+
 const observeNav = () => {
   const sections = document.querySelectorAll("main section[id]");
   const navLinks = document.querySelectorAll(".nav a");
@@ -191,5 +219,6 @@ renderSkillFilters();
 renderSkills();
 renderProjects();
 renderContactLinks();
+setupThemeToggle();
 observeReveals();
 observeNav();
