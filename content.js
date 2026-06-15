@@ -3,10 +3,11 @@ window.portfolioContent = {
   title: "Software Systems Engineer",
   headline: "Software and robotics engineer with a focus on building systems that work in the real world.",
   about:
-    "My background blends robotics infrastructure, low-level systems work, and product-minded software engineering. I enjoy building the pieces that make complex systems actually work together — from motion coordination and hardware drivers to testing, deployment, and interfaces that help people use those systems with confidence.",
-  location: "Hartford, CT — open to relocating to Boston, MA",
+    "My background blends robotics infrastructure, low-level systems work, and product-minded software engineering. I enjoy building the pieces that make complex systems actually work together — from hardware drivers to testing, deployment, and building the interfaces that help people use those systems with confidence.",
+  location: "Hartford, CT - open to relocating",
   focus: "Robotics software, task planning, hardware integration, and full-stack engineering",
-  currentRole: "Engineer II at Sony AI, supporting fine-manipulation research infrastructure",
+  currentRole: "Systems Engineer at Sony AI, support robotics research infrastructure",
+  portraitSrc: "", // path to your photo, e.g. "assets/photo.jpg"
   resumeUrl: "",
   secondaryCta: {
     label: "Contact Me",
@@ -91,12 +92,13 @@ window.portfolioContent = {
       ]
     },
     {
-      title: "Maria VS",
+      title: "Maria V's",
       type: "Business Website",
+      description: "Website for a local restaurant",
       stack: ["HTML/CSS", "JavaScript"],
-      impact: "Live site actively maintained.",
+      impact: "Live customer-facing site supporting a small business",
       links: [
-        { label: "Live Site", url: "http://mariavs.com" }
+        { label: "Live Site", url: "http://mariavsbar.com" }
       ]
     }
   ],

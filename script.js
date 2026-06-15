@@ -34,6 +34,14 @@ const hydrateHero = () => {
     resumeLink.classList.add("is-disabled");
   }
   setLink("secondaryCta", content.secondaryCta);
+
+  const img = document.getElementById("portraitImg");
+  const placeholder = document.getElementById("portraitPlaceholder");
+  if (content.portraitSrc && img && placeholder) {
+    img.src = content.portraitSrc;
+    img.style.display = "block";
+    placeholder.style.display = "none";
+  }
 };
 
 
