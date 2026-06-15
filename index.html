@@ -9,6 +9,16 @@
     content="Interactive resume and portfolio website with experience, technical skills, and projects."
   >
   <link rel="stylesheet" href="./styles.css">
+  <script>
+    // Apply saved theme before first paint to avoid a flash. Defaults to dark.
+    (function () {
+      try {
+        if (localStorage.getItem("theme") === "light") {
+          document.documentElement.setAttribute("data-theme", "light");
+        }
+      } catch (e) {}
+    })();
+  </script>
 </head>
 <body>
   <div class="page-shell">
@@ -23,7 +33,18 @@
         <a href="#projects">Projects</a>
         <a href="#contact">Contact</a>
       </nav>
-      <a class="button button-quiet" id="resumeLink" href="#" target="_blank" rel="noreferrer">Resume</a>
+      <div class="topbar-actions">
+        <button
+          class="theme-toggle"
+          id="themeToggle"
+          type="button"
+          aria-label="Switch to light mode"
+          aria-pressed="false"
+        >
+          <span class="theme-toggle-icon" aria-hidden="true"></span>
+        </button>
+        <a class="button button-quiet" id="resumeLink" href="#" target="_blank" rel="noreferrer">Resume</a>
+      </div>
     </header>
 
     <main>
