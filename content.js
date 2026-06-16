@@ -25,7 +25,6 @@ window.portfolioContent = {
         "Architected a task management system in C++ and Python to manage discrete system states and arbitrate between multiple task planners for complex manipulation sequences.",
         "Developed a motion coordination engine to synchronize asynchronous, collision-free trajectories for a dual-arm robotic system, interfacing with external motion planners over gRPC.",
         "Engineered and supported low-level drivers for a multi-sensor suite, including four high-resolution cameras and trajectory-controlled grippers, enabling reliable hardware-software integration.",
-        "Standardized system deployment by containerizing core research components with Docker and Docker Compose, reducing setup time and improving consistency across global research teams.",
         "Implemented unit and integration testing frameworks for middleware components to support higher-confidence research and fine-manipulation development.",
         "Facilitated cross-functional collaboration across multiple time zones by providing system support and infrastructure critical to research progress."
       ]
@@ -38,9 +37,9 @@ window.portfolioContent = {
       summary:
         "Worked across robotics software, hardware integration, cloud-connected systems, and customer-facing tooling in a production robotics environment.",
       highlights: [
-        "Developed, prototyped, and maintained a robot task planner in C++ based on discrete system states.",
+        "Developed and maintained a robot task planner in C++ based on discrete system states.",
+        "Developed communications APIs connecting hardware components, customer UI, and cloud services.",
         "Designed and maintained low-level hardware drivers using manufacturer APIs and real-time processing constraints.",
-        "Designed and developed communications APIs connecting hardware components, customer UI, and cloud services.",
         "Developed and maintained customer-facing UI using TypeScript and React."
       ]
     },
