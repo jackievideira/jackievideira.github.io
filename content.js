@@ -4,11 +4,11 @@ window.portfolioContent = {
   headline: "Software and robotics engineer with a focus on building systems that work in the real world.",
   about:
     "My background blends robotics infrastructure, low-level systems work, and product-minded software engineering. I enjoy building the pieces that make complex systems actually work together — from hardware drivers to testing, deployment, and building the interfaces that help people use those systems with confidence.",
-  location: "Hartford, CT - open to relocating",
+  location: "West Hartford, CT - open to relocating",
   focus: "Robotics software, real-time systems, hardware integration, and full-stack product work",
   currentRole: "Systems Engineer at Sony AI, support robotics research infrastructure",
   portraitSrc: "", // path to your photo, e.g. "assets/photo.jpg"
-  resumeUrl: "",
+  resumeUrl: "assets/Jackie_Videira_Resume.docx",
   secondaryCta: {
     label: "Contact Me",
     href: "#contact"
@@ -22,9 +22,9 @@ window.portfolioContent = {
       summary:
         "Building core robotics infrastructure to support fine-manipulation research, with a focus on task planning, motion coordination, hardware integration, deployment, and system reliability.",
       highlights: [
-        "Architected a task management system in C++ and Python to manage discrete system states and arbitrate between multiple task planners for complex manipulation sequences.",
-        "Developed a motion coordination engine to synchronize asynchronous, collision-free trajectories for a dual-arm robotic system, interfacing with external motion planners over gRPC.",
-        "Engineered and supported low-level drivers for a multi-sensor suite, including four high-resolution cameras and trajectory-controlled grippers, enabling reliable hardware-software integration.",
+        "Co-architected and owned a C++ task management system orchestrating 200+ asynchronous tasks per run across 10+ ingredient workflows, integrating ROS and non-ROS service components over gRPC to coordinate motion across multiple robots.",
+        "Developed a motion coordination engine to synchronize collision-free trajectories across multiple resources in real time, interfacing with external motion planners over gRPC.",
+        "Engineered and supported low-level drivers for a multi-sensor suite, including high-resolution cameras and trajectory-controlled grippers, enabling reliable hardware-software integration.",
         "Standardized system deployment by containerizing core research components with Docker and Docker Compose, reducing setup time and improving consistency across global research teams.",
         "Implemented unit and integration testing frameworks for middleware components to support higher-confidence research and fine-manipulation development.",
         "Facilitated cross-functional collaboration across multiple time zones by providing system support and infrastructure critical to research progress."
@@ -50,10 +50,9 @@ window.portfolioContent = {
       company: "Lockheed Martin",
       location: "Burlington, MA",
       summary:
-        "Contributed software tools and simulation-related development with a focus on interpretable feedback and VR-based interaction.",
+        "Developed machine-learning-powered tooling focused on providing users with interpretable feedback.",
       highlights: [
-        "Developed tools for training software that provided interpretable, machine-learning-generated feedback to users after task completion.",
-        "Built a Prepar3D VR flight simulator add-on that tracked eye movement to identify which object a user was looking at."
+        "Developed machine-learning-powered tools that provided interpretable feedback to users after training software completion."
       ]
     }
   ],
@@ -66,17 +65,17 @@ window.portfolioContent = {
     {
       id: "robotics",
       label: "Robotics & Systems",
-      skills: ["Task Planning", "Discrete System States", "Motion Coordination", "gRPC", "Hardware Drivers", "Middleware", "Integration Testing", "Sensor Integration"]
+      skills: ["Task Planning", "Discrete System States", "Motion Coordination", "gRPC", "Hardware Drivers", "Dual-Arm Manipulation", "Integration Testing", "Sensor Fusion"]
     },
     {
       id: "tools",
       label: "Tools",
-      skills: ["Git", "AWS", "Docker", "Docker Compose", "MySQL", "PostgreSQL", "Testing", "Debugging"]
+      skills: ["Git", "AWS", "Docker", "Docker Compose", "PostgreSQL", "Testing", "Debugging"]
     },
     {
       id: "education",
       label: "Education",
-      skills: ["B.S. Computer Science and Engineering", "Mathematics Minor", "University of Connecticut"]
+      skills: ["B.S. Computer Science and Engineering", "University of Connecticut"]
     }
   ],
   projects: [
