@@ -4,7 +4,7 @@ window.portfolioContent = {
   headline: "Software and robotics engineer with a focus on building systems that work in the real world.",
   about:
     "My background blends robotics infrastructure, low-level systems work, and product-minded software engineering. I enjoy building the pieces that make complex systems actually work together — from hardware drivers to testing, deployment, and building the interfaces that help people use those systems with confidence.",
-  location: "West Hartford, CT - open to relocating",
+  location: "Hartford, CT - open to relocating",
   focus: "Robotics software, real-time systems, hardware integration, and full-stack product work",
   currentRole: "Systems Engineer at Sony AI, support robotics research infrastructure",
   portraitSrc: "", // path to your photo, e.g. "assets/photo.jpg"
@@ -65,7 +65,7 @@ window.portfolioContent = {
     {
       id: "robotics",
       label: "Robotics & Systems",
-      skills: ["Task Planning", "Discrete System States", "Motion Coordination", "gRPC", "Hardware Drivers", "Dual-Arm Manipulation", "Integration Testing", "Sensor Fusion"]
+      skills: ["Task Planning", "Discrete System States", "Motion Coordination", "gRPC", "Hardware Drivers", "Dual-Arm Manipulation", "Integration Testing", "Middleware"]
     },
     {
       id: "tools",
@@ -75,7 +75,7 @@ window.portfolioContent = {
     {
       id: "education",
       label: "Education",
-      skills: ["B.S. Computer Science and Engineering", "University of Connecticut"]
+      skills: ["B.S. Computer Science and Engineering", "Mathematics Minor", "University of Connecticut"]
     }
   ],
   projects: [
