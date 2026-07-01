@@ -6,7 +6,7 @@ window.portfolioContent = {
     "My background blends robotics infrastructure, low-level systems work, and product-minded software engineering. I enjoy building the pieces that make complex systems actually work together — from hardware drivers to testing, deployment, and building the interfaces that help people use those systems with confidence.",
   location: "Hartford, CT - open to relocating",
   focus: "Robotics software, real-time systems, hardware integration, and full-stack product work",
-  currentRole: "Systems Engineer at Sony AI, support robotics research infrastructure",
+  currentRole: "Former Systems Engineer at Sony AI, supported robotics research infrastructure",
   portraitSrc: "", // path to your photo, e.g. "assets/photo.jpg"
   resumeUrl: "assets/Jackie_Videira_Resume.docx",
   secondaryCta: {
@@ -15,7 +15,7 @@ window.portfolioContent = {
   },
   experience: [
     {
-      period: "March 2024 - Present",
+      period: "March 2024 - June 2026",
       role: "Systems Engineer II",
       company: "Sony AI",
       location: "Boston, MA",
@@ -79,6 +79,17 @@ window.portfolioContent = {
     }
   ],
   projects: [
+    {
+      title: "Multi-Arm Asynchronous Planning",
+      type: "Research",
+      description:
+        "Research from Sony AI on asynchronous task planning and motion coordination across multiple robot arms, related to the robotics infrastructure work I contributed to.",
+      stack: ["Task Planning", "Motion Coordination", "Robotics"],
+      impact: "Published research detailing some of the work I did at Sony Research.",
+      links: [
+        { label: "Read the Paper", url: "https://sonyresearch.github.io/planning_service/blog/multiarm_async/" }
+      ]
+    },
     {
       title: "FSM Visualizer",
       type: "Interactive Tool",
